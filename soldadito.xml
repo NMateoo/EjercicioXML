@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Soldadito.xsl"?>
+<?xml-stylesheet href="soldadito.css"?>
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/1%C2%BADAW/Documents/JoseGomez/LeguajeDeMarcas/Lenguaje-de-Marcas/T2/soldadito.xsd">
+	<titulo>Soldadito Marinero</titulo>
+	<autor>Fito y los Fitipaldis</autor>
+	<letras>
+		<estrofa>
+		<tipo>normal</tipo>
+		<orden>5</orden>
+			<verso>Él camina despacito que las prisas no son buenas</verso>
+			<verso>En su brazo dobladita, con cuidado la chaqueta</verso>
+			<verso>Luego pasa por la calle dónde los chavales juegan</verso>
+			<verso>Él también quiso ser niño pero le pilló la guerra</verso>			
+		</estrofa>
+		<estrofa>
+			<tipo>estribillo</tipo>
+		<orden>4</orden>
+			<verso>Soldadito marinero conociste a una sirena</verso>
+			<verso>De esas que dicen te quiero si ven la cartera llena</verso>
+			<verso>Escogiste a la más guapa y a la menos buena</verso>
+			<verso>Sin saber como ha venido te ha cogido la tormenta</verso>			
+		</estrofa>
+		<estrofa>
+		<tipo>normal</tipo>
+			
+			<verso>Él quería cruzar los mares y olvidar a su sirena</verso>
+			<verso>La verdad, no fue difícil cuando conoció a Mariela</verso>
+			
+		</estrofa>
+	</letras>
+</cancion>

@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <xs:import namespace="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="xsi.xsd"/>
     <xs:element name="cancion">
         <xs:complexType>
             <xs:sequence>
                 <xs:element ref="titulo"/>
                 <xs:element ref="autor"/>
-                <xs:element ref="letra"/>
+                <xs:element ref="letras"/>
             </xs:sequence>
+            <xs:attribute ref="xsi:noNamespaceSchemaLocation" use="required"/>
         </xs:complexType>
     </xs:element>
     <xs:element name="titulo" type="xs:string"/>
     <xs:element name="autor" type="xs:string"/>
-    <xs:element name="letra">
+    <xs:element name="letras">
         <xs:complexType>
             <xs:sequence>
-                <xs:element maxOccurs="unbounded" ref="estrofra"/>
+                <xs:element maxOccurs="unbounded" ref="estrofa"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="estrofra">
+    <xs:element name="estrofa">
         <xs:complexType>
             <xs:sequence>
                 <xs:element ref="tipo"/>
-                <xs:element ref="orden"/>
+                <xs:element minOccurs="0" ref="orden"/>
                 <xs:element maxOccurs="unbounded" ref="verso"/>
             </xs:sequence>
         </xs:complexType>

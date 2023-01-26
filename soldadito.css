@@ -1,0 +1,16 @@
+body {
+    counter-reset: section;
+    /* Set a counter named 'section', and its initial value is 0. */
+}
+p.{
+    color:red;
+}
+
+p::before {
+    counter-increment: section;
+    /* Increment the value of section counter by 1 */
+    content: "Verso " counter(section) ": ";
+    /* Display the word 'Section ', the value of
+                                                  section counter, and a colon before the content
+                                                  of each h3 */
+}
