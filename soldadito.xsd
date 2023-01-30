@@ -18,15 +18,6 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="estrofa">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element ref="tipo"/>
-                <xs:element ref="contador"/>
-                <xs:element maxOccurs="unbounded" ref="verso"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
     <xs:element name="tipo" type="xs:NCName"/>
     <xs:element name="contador">
         <xs:complexType/>
