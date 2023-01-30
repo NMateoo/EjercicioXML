@@ -1,9 +1,14 @@
 body {
     counter-reset: section estrofa;
 }
+
+h1 {
+    font-size: 30px;
+}
+
 h3::before {
     counter-increment: estrofa;
-    content: "" counter(estrofa) ": ";
+    content: "" counter(estrofa) "º ";
 }
 
 p::before {
