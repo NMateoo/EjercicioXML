@@ -15,7 +15,7 @@
   <xsl:template match="estrofa">
       <span>
       <h3>
-        Estrofa: 
+        Estrofa 
         </h3>
       <xsl:apply-templates />
     </span>

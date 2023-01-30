@@ -1,5 +1,5 @@
 body {
-    counter-reset: section;
+    counter-reset: section estrofa;
 }
 h3::before {
     counter-increment: estrofa;
@@ -8,6 +8,9 @@ h3::before {
 
 p::before {
     counter-increment: section; 
-    content: "Verso: " counter(section) ": "; 
+    content: "Verso: " counter(section) " "; 
+}
+
+p {
     color: red;
 }
