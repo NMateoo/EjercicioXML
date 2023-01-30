@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="soldadito.css"?>
-<cancion>
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\1DAM&&1DAW\Documents\GitHub\EjercicioXML\soldadito.xsd">
 	<titulo>Soldadito Marinero</titulo>
 	<autor>Fito y los Fitipaldis</autor>
 	<letras>
