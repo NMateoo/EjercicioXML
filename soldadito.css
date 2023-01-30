@@ -9,8 +9,5 @@ h3::before {
 p::before {
     counter-increment: section; 
     content: "Verso: " counter(section) " "; 
-}
-
-p {
     color: red;
 }
