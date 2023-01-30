@@ -13,13 +13,19 @@
   </xsl:template>
 
   <xsl:template match="estrofa">
-    <xsl:template>
-      <h3
+      <span>
+      <h3>
         Estrofa: 
         </h3>
-      <xsl:template>
+      <xsl:apply-templates />
     </span>
-    </xsl:template>
+  </xsl:template>
+  
+    <xsl:template match="verso">
+    
+      <p>
+        <xsl:value-of select="."/>
+    </p>
   </xsl:template>
 
 </xsl:stylesheet>
