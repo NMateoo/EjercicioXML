@@ -23,6 +23,7 @@ p::before {
 }
 
 span {
+    display: inline-block;
     background-color: yellow;
     color: blue;
   }
