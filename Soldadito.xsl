@@ -7,6 +7,9 @@
         <link rel="stylesheet" type="text/css" href="soldadito.css" />
       </head>
       <body>
+        <h2>
+          <xsl:value-of select="cancion/titulo"/>
+        </h2>
         <xsl:apply-templates />
       </body>
     </html>
