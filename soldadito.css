@@ -6,6 +6,11 @@ h1 {
     font-size: 30px;
 }
 
+h2 {
+    font-size: 30px;
+    color: black;
+  }
+
 h3::before {
     counter-increment: estrofa;
     content: "" counter(estrofa) "º ";
@@ -16,3 +21,8 @@ p::before {
     content: "Verso: " counter(section) " "; 
     color: red;
 }
+
+span {
+    background-color: yellow;
+    color: blue;
+  }
